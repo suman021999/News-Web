@@ -14,6 +14,10 @@
     font-family: font3;
     src: url(/fonts/TestManuka-Bold.ttf);
 }
+@font-face {
+    font-family: font4;
+    src: url(/fonts/NeueMontreal-Light.ttf);
+}
 .ofthe{
     color: #fafafa;
     -webkit-text-stroke: .02em #2a2722;
@@ -34,3 +38,14 @@
         transform: translateX(-100%);
     }
 }
+
+.home-letter::before {
+    content: "";
+    position: absolute;
+    inset: 1rem;
+    display: block;
+    
+    border: 2px solid #fff;
+}
+
+
